@@ -1,9 +1,9 @@
 # quotes_vote_app
 We are creating an app using angular that will enable users to upvote or down vote on quotes posted by themselves or other users
-##how it works
+## how it works
 A user is able to  input content such as quotes on the form provided and add their quote on site. They are also able to delete the quote, 
 upvote or down vote on other quotes.
-##installation
+## installation
 So far this is only a web app and as such there is no requirements for installation. We seek to make future improvements for it to be downloadable on mobile devices.
 # generation
 
@@ -33,5 +33,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-##License
+## License
 {I used the MIT licence for this project} Copyright (c) {2021}{Brian Muganda}
