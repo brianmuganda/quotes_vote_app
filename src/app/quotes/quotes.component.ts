@@ -7,7 +7,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  title = 'welcome to tech quotes';
+  title = 'We serve inspiration through quotes';
   quotes:Quote[] = [
     new Quote (1,'kenya','Human spirit','The human spirit must prevail over technology to allow humans be in charge.','Albert Einstein', new Date(2019,7,12),0,0),
     new Quote (2,'Wendy','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2019,7,14),0,0),
