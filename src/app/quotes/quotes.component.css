@@ -1,5 +1,5 @@
 h1{
-  font-family: 'Special Elite', cursive;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   text-align: center;
   font-weight: bolder;
@@ -7,13 +7,13 @@ h1{
   padding-top: 2%;
 }
 h4{
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 span{
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 .overlay{
-  background-color:rgba(0, 225, 255, 0.301);
+  background-color:#993CF3;
   border-radius: 5px;
   margin-top:4%;
   margin-left: 4%;
@@ -24,7 +24,7 @@ span{
   padding-bottom: 5%;
 }
 #name{
-  color:rgb(43, 214, 0);
+  color:blueviolet;
   font-weight: 700;
 }
 .all-cards{
@@ -33,7 +33,7 @@ span{
   justify-content: space-around;
 }
 #quotes-button{
-  float: right;
+  float: left;
 }
 .card{
   margin-bottom: 2%;
@@ -45,11 +45,11 @@ span{
   font-size: 14px;
 }
 #datecolor{
-  color: green;
+  color: #d623cb;
   font-weight: 700;
 }
 .card-text{
-  font-family: 'Handlee', cursive;
+  font-family:'Times New Roman', Times, serif;
   font-weight: 570;
   font-size: 18px;
 }
