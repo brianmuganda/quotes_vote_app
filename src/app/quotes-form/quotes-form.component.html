@@ -1,9 +1,9 @@
 <div class="container-fluid">
-  <h2 class="heading">Add Quote</h2>
+  <h2 class="heading">Quotes Template</h2>
   <!-- <hr> -->
   <form (ngSubmit)='addQuote() ;quotesForm.resetForm({})' #quotesForm='ngForm'>
       <div class="form-group">
-        <label for="name">Your Name</label>
+        <label for="name">Full names</label>
         <input type="text" required class="form-control" id="name" [(ngModel)]="quoted.name" name="name" #name='ngModel' minlength="3">
         <div *ngIf="name.invalid && name.dirty" class="alert alert-danger">
           <div *ngIf="name.errors.required">
@@ -15,7 +15,7 @@
         </div> 
       </div>
       <div class="form-group">
-        <label for="name">Quote Tittle</label>
+        <label for="name">Quote header</label>
         <input type="text" required class="form-control" id="title" [(ngModel)]="quoted.title" name="title" #title='ngModel'>
         <div *ngIf="title.invalid && title.dirty" class="alert alert-danger">
           <div *ngIf="title.errors.required">
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label for="name">Quote Author</label>
+        <label for="name">Name of the Quote Author</label>
         <input type="text" required class="form-control" id="author"[(ngModel)]="quoted.author" name="author" #author='ngModel'>
         <div *ngIf="title.invalid && title.dirty" class="alert alert-danger">
           <div *ngIf="title.errors.required">
@@ -41,6 +41,6 @@
           </div>
         </div>
       </div>
-      <button type="submit" class="btn btn-sm btn-success">Add Quote</button>
+      <button type="submit" class="btn btn-sm btn-danger">Add Quote</button>
   </form>
 </div>
